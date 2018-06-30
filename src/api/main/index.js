@@ -1,5 +1,7 @@
-import Memes from './memes';
+import memes from './memes';
+import designs from './designs';
 
 export default {
-  memes: Memes
+  memes,
+  designs
 };
