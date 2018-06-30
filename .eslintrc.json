@@ -1,0 +1,11 @@
+{
+    "extends": "standard",
+    "rules": {
+        "semi": "off",
+        "quotes": ["error", "single"],
+        "no-trailing-spaces": "error",
+        "no-extra-parens": "warn",
+        "no-irregular-whitespace": "warn",
+        "indent": ["error", 2]
+    }
+}
