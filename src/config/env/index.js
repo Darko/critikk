@@ -8,4 +8,4 @@ const config = {
   production
 };
 
-export default config[env];
+export default Object.assign({}, config[env], { env });

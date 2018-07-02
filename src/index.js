@@ -1,6 +1,7 @@
 import config from './config/env/index';
 import server from './config/server';
 
+import './config/mongoose';
 import './routes/index';
 
 server.listen(config.app.port, () => {
@@ -10,6 +11,5 @@ server.listen(config.app.port, () => {
 
     Running ${process.env.NODE_ENV || 'development'} server on:
     http://localhost:${config.app.port}
-    
   `);
 });
